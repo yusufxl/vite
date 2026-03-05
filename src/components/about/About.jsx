@@ -17,7 +17,7 @@ const About = () => {
                         highly, including in prestigious races such as the 24 Hours of Le Mans.
                     </p>
                 </div>
-                <img src="./22.png" alt="" className="about_img" />
+                <img src="/public/Rectangle 22 .png" alt="" className="about_img" />
             </div>
         </div>
     )
