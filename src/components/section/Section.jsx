@@ -16,7 +16,7 @@ const Section = () => {
               ensure maximum performance on the track.
             </p>
           </div>
-          <img src="../../images/1.png" alt="" />
+          <img src="1.png" alt="" />
         </div>
       </div>
     </div>
