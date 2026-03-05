@@ -1,0 +1,30 @@
+.section {
+
+    &_text-box {
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    &_title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #EB3A13;
+    }
+
+    &_text {
+        font-weight: 500;
+        font-size: 20px;
+        color: #F0F0F0;
+        width: 100%;
+        max-width: 540px;
+
+    }
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-bottom: 164px;
+    }
+}

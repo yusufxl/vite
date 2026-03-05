@@ -1,0 +1,39 @@
+.nav {
+    background-color: #141414;
+    backdrop-filter: blur(34px);
+    padding: 10px 0;
+
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_list {
+        display: flex;
+        column-gap: 80px;
+    }
+
+    &_link {
+        font-size: 16px;
+        color: #FFFFFF;
+        transition: 0.5s;
+        position: relative;
+        transform: scale(1);
+
+        &:hover {
+            color: #FFE600;
+            transform: scale(2);
+        }
+    }
+
+    &_mobile {
+        display: none;
+    }
+
+}
+
+.nav_mobile_link.active {
+    transform: scale(1.15);
+}

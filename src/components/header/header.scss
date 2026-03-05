@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url("../../images/bgg.png") no-repeat center center / cover;
+  height: 747px;
+  width: 100%;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 114px;
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 11px;
+  }
+
+  &_title {
+    color: #b31d1e;
+    font-weight: 600;
+    font-size: 140px;
+  }
+
+  &_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    height: 64px;
+    background: linear-gradient(93.34deg, #ffa600 0%, #e41818 100%);
+    font-weight: 800;
+    font-size: 24px;
+    color: #141414;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
