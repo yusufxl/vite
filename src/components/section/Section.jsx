@@ -8,7 +8,7 @@ const Section = () => {
           <div className="section_text-box">
             <h2 className="section_title">PORSCHE 911 GT3 R5</h2>
             <p className="section_text">The Porsche 911 GT3 R (or 911 GT3 R5) is a specialized race car designed
-              for participation in various racing series, including GT championships and other
+              for participation in various racing seriess, including GT championships and other
               international competitions.
             </p>
             <p className="section_text">It represents an enhanced version of the legendary Porsche 911,
