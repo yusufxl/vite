@@ -17,7 +17,7 @@ const Nav = () => {
             <div className="container">
                 <div className="nav_box">
                     <a href="#!" className="nav_logo">
-                        <img src="/public/logo.svg" alt="" />
+                        <img src="./logo.svg" alt="" />
                     </a>
 
                     <ul className="nav_list">
