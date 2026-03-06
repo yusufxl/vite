@@ -462,12 +462,20 @@
 }
 
 @media (max-width: 500px) {
+
+
+    .footer_form_input {
+        padding: 8px 0px 8px 0px;
+        font-size: 13px;
+        line-height: 100%;
+    }
+
     .footer_box {
         row-gap: 15px;
     }
 
     .footer_title {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .footer_list_link {
@@ -525,7 +533,7 @@
     }
 
     .about_box {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .about_box {
@@ -533,11 +541,11 @@
     }
 
     .about_img {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .about_text {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .section_title {
@@ -597,17 +605,23 @@
 }
 
 @media (max-width: 400px) {
+    .footer_form_input {
+        padding: 6px 0px 6px 0px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
     .porsche_box {
-        margin-top: 10px;
-        gap: 15px;
+        margin-top: 7px;
+        gap: 10px;
     }
 
     .footer_box {
-        row-gap: 10px;
+        row-gap: 8px;
     }
 
     .footer_title {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .footer_list_link {
@@ -624,28 +638,28 @@
     }
 
     .footer_form_btn {
-        width: 58%;
+        width: 48%;
         margin: 0 auto;
-        height: 31px;
+        height: 28px;
         font-size: 12px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     body {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
     .footer {
-        padding: 15px 20px 32px;
+        padding: 10px 10px 30px;
     }
 
     .about_text {
         font-size: 13px;
-        line-height: 130%;
+        line-height: 120%;
     }
 
     .section_text {
-        font-size: 13.4px;
+        font-size: 13px;
     }
 
     .header {
@@ -671,19 +685,19 @@
     }
 
     .about_box {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .about_box {
-        row-gap: 10px;
+        row-gap: 5px;
     }
 
     .about_img {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .about_text {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .section_title {
