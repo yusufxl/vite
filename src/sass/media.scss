@@ -170,8 +170,8 @@
                 background: rgba(0, 0, 0, 0.918);
                 backdrop-filter: blur(25px);
                 -webkit-backdrop-filter: blur(25px);
-                border: 1px solid rgba(255, 255, 255, 0.15);
-
+                border: none;
+                box-shadow: none;
             }
 
             &_link {
@@ -316,7 +316,7 @@
             &_list {
                 padding: 10px 20px;
                 border-radius: 999px;
-                box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+                box-shadow: none;
             }
 
             &_link {
@@ -577,7 +577,7 @@
             &_list {
                 padding: 10px 15px;
                 border-radius: 999px;
-                box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+                box-shadow: none;
             }
 
             &_link {
@@ -743,7 +743,7 @@
             &_list {
                 padding: 10px 15px;
                 border-radius: 999px;
-                box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+                box-shadow: none;
             }
 
             &_link {
