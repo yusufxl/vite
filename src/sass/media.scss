@@ -142,8 +142,7 @@
     .nav {
         background-color: transparent;
         padding: 0;
-        backdrop-filter: blur(0px);
-        -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: none;
         position: fixed;
         bottom: 10px;
         left: 50%;
