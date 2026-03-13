@@ -64,12 +64,17 @@
             font-weight: 300;
             color: #F0F0F0;
             font-size: 14px;
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
         }
     }
+
 
     &_title {
         font-weight: 400;
         font-size: 16px;
         color: #F0F0F0;
     }
+
 }
